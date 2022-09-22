@@ -139,6 +139,7 @@ exports.getAllReservations = getAllReservations;
  * @param {*} limit The number of results to return.
  * @return {Promise<[{}]>}  A promise to the properties.
  */
+
  const getAllProperties = function(options, limit = 10) {
   // 1 Setup an array to hold any parameters that may be available for the query
   const queryParams = [];
